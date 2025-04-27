@@ -321,6 +321,7 @@
     margin: 15px 0;
     font-size: 20px;
     border-radius: 10px;
+     align-items:center;
   }
 
   .skill-tag:hover {
