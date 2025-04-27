@@ -304,7 +304,7 @@
       justify-content: center;
     }
   }
-  .skills-section {
+  .skills {
      margin: 25px 20px 25px 20px;
     display: flex;
     flex-direction: column;
