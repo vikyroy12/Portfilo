@@ -288,21 +288,24 @@
     </div>
   </footer>
   
-  
-
-  <script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
     const collapsibleHeaders = document.querySelectorAll('.collapsible-header');
 
-collapsibleHeaders.forEach(header => {
-  header.addEventListener('click', () => {
-    const projectDetails = header.nextElementSibling;
-    const arrow = header.querySelector('.arrow');
-    
-    projectDetails.style.display = projectDetails.style.display === 'block' ? 'none' : 'block';
-    header.classList.toggle('active');
-  });
-});
+    collapsibleHeaders.forEach(header => {
+      header.addEventListener('click', () => {
+        const projectDetails = header.nextElementSibling;
+        const arrow = header.querySelector('.arrow');
 
-  </script>
+        const isVisible = projectDetails.style.display === 'block';
+        projectDetails.style.display = isVisible ? 'none' : 'block';
+        header.classList.toggle('active');
+      });
+    });
+  });
+</script>
+  
+
+
 </body>
 </html>
