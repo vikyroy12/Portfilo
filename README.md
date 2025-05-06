@@ -36,6 +36,7 @@
       <p>Salesforce Developer with 1+ years experience, 3x Salesforce certifications, skilled in Apex, LWC, Visualforce, and Salesforce integrations.</p>
       <img src="agentblazer-badge.jpg" alt="Agentblazer Champion" class="badge" />
     </div>
+    
     <div class="hero-image">
       <img src="image.jpg" alt="Poloju Vikram Profile" />
     </div>
