@@ -190,7 +190,9 @@
           <li>Configured and implemented Salesforce integration with WhatsApp for real-time customer communication.</li>
           <li>Created Flows to automate WhatsApp notifications for leads, opportunities, and case updates.</li>
           <li>Implemented secure integration using the WhatsApp Business API, ensuring compliance with data protection standards.</li>
-
+          </ul>
+ </div>
+    </div>
 <!-- Project 02 -->
     <div class="project-card">
       <div class="collapsible-header">
