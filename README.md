@@ -306,8 +306,21 @@
     </div>
   </footer>
   
-  
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const collapsibleHeaders = document.querySelectorAll('.collapsible-header');
 
-  <script src="script.js"></script>
+    collapsibleHeaders.forEach(header => {
+      header.addEventListener('click', () => {
+        const projectDetails = header.nextElementSibling;
+        const arrow = header.querySelector('.arrow');
+
+        const isVisible = projectDetails.style.display === 'block';
+        projectDetails.style.display = isVisible ? 'none' : 'block';
+        header.classList.toggle('active');
+      });
+    });
+  });
+</script>
 </body>
 </html>
