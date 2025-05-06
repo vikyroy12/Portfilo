@@ -8,19 +8,27 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 <body>
-<header class="header">
-    <a href="#" class="logo">Portfolio</a>
-    <i class="fa-solid fa-bars" id="menu-icon" ></i>
+<header>
+
     <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about" >About</a>
-        <a href="#services" >Services</a>
-        <a href="#skills" >Skills</a>
-        <a href="#Projects" >Projects</a>
-        <a href="#Certification" >Certification</a>
-        <a href="#contact" >Contact</a> 
-    </nav>
- </header>
+      <div class="logo">
+        <img src="Trailhead Logo.jpg" alt="Trailhead Logo" />
+      </div>
+
+      <nav class="navbar1" >
+        <a href="#About" >About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Education">Education</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Certificates">Certificates</a>
+       </nav>
+
+    <a href="resume.pdf" download class="resume-button">
+      <i class="fas fa-download"></i> Resume
+    </a>
+  </header>
+
 <!--About Section Design-->
   <section class="hero">
     <div class="text">
