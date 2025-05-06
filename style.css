@@ -573,6 +573,22 @@ body {
     padding-left: 1rem;
     position: relative;
   }
+  .collapsible-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.collapsible-header.active .arrow {
+  transform: rotate(180deg); /* rotate arrow down to up */
+}
+
+
   .project-details table {
     width: 100%;
     border-collapse: collapse;
@@ -590,21 +606,6 @@ body {
     background-color: #504afb;
     color: white;
 }
-  .collapsible-header {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.arrow {
-  transition: transform 0.3s ease;
-}
-
-.collapsible-header.active .arrow {
-  transform: rotate(180deg); /* rotate arrow down to up */
-}
-
 
   .project-card {
     background: #fff;
