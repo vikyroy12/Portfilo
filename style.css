@@ -14,57 +14,64 @@ html {
   --accent-color: purple;
   --background-color: #f9f9f9;
 }
-
-/* Body */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: var(--background-color);
-  color: var(--secondary-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background:rgb(249, 247, 247);
+    color: #333;
+    flex-direction: column;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    
+  }
+  
+  .logo img {
+    width: 65px;
+  }
+  
+  .navbar1 a {
+    font-size: 1.5rem;
+    color: black;
+    margin-left: 1rem;
+    font-weight: 500;  
+  }
+.navbar1 a:hover,
+.navbar1 a.active {
+ color:red;
 }
-section {
-    min-height: 100vh;
-    padding: 10rem 8% 3rem;
+  
+  .resume-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .resume-button i {
+    font-size: 1.2rem;
   }
 
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #333;
-  padding: 20px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1000;
-}
-
-.logo {
-  font-size: 28px;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.navbar a {
-  color: #fff;
-  font-size: 18px;
-  margin-left: 30px;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.navbar a:hover,
-.navbar a.active {
-  color: #00c3ff;
-}
-
-#menu-icon {
-  font-size: 28px;
-  color: #fff;
-  cursor: pointer;
-  display: none;
-}
   .hero {
     display: flex;
     flex-wrap: wrap;
