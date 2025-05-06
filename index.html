@@ -305,9 +305,24 @@
       <span class="email">raftervikram@gmail.com</span>
     </div>
   </footer>
-  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const collapsibleHeaders = document.querySelectorAll('.collapsible-header');
+
+    collapsibleHeaders.forEach(header => {
+      header.addEventListener('click', () => {
+        const projectDetails = header.nextElementSibling;
+        const arrow = header.querySelector('.arrow');
+
+        const isVisible = projectDetails.style.display === 'block';
+        projectDetails.style.display = isVisible ? 'none' : 'block';
+        header.classList.toggle('active');
+      });
+    });
+  });
+</script>
   
 
-  <script src="script.js"></script>
+  
 </body>
 </html>
