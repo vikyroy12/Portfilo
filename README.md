@@ -172,34 +172,28 @@
     </div>
   
     <div class="projects-right">
-      <div class="project-card">
+      
+    <!-- Project 01 -->
+    <div class="project-card">
+      <div class="collapsible-header">
         <span class="project-number">01</span>
         <p class="project-title">Salesforce Integration with WhatsApp</p>
-        
+        <span class="arrow">&#x25BC;</span> <!-- Down Arrow -->
       </div>
-      
       <div class="project-details">
         <table>
-            <tr>
-                <th>Company</th>
-                <th>Duration</th>
-                <th>Team Size</th>
-            </tr>
-            <tr>
-                <td>Ankiome Soft</td>
-                <td>2 months</td>
-                <td>2</td>
-            </tr>
+          <tr><th>Company</th><th>Duration</th><th>Team Size</th></tr>
+          <tr><td>Ankiome Soft</td><td>2 months</td><td>2</td></tr>
         </table>
         <h3>Roles & Responsibilities</h3>
-        <ul class="responsibilities">
-            <li>Configured and implemented Salesforce integration with WhatsApp for real-time customer communication.</li>
-            <li>Created Flows to automate WhatsApp notifications for leads, opportunities, and case updates.</li>
-            <li>Implemented secure integration using the WhatsApp Business API, ensuring compliance with data protection standards.</li>
-            <li>Enhanced customer service by enabling seamless integration between Salesforce and WhatsApp.</li>
+        <ul>
+          <li>Configured and implemented Salesforce integration with WhatsApp for real-time customer communication.</li>
+          <li>Created Flows to automate WhatsApp notifications for leads, opportunities, and case updates.</li>
+          <li>Implemented secure integration using the WhatsApp Business API, ensuring compliance with data protection standards.</li>
+          <li>Enhanced customer service by enabling seamless integration between Salesforce and WhatsApp.</li>
         </ul>
+      </div>
     </div>
-  
       <div class="project-card">
         <span class="project-number">02</span>
         <p class="project-title">Salesforce Configuration and Development</p>
