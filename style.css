@@ -320,7 +320,7 @@ body {
   
   .skill-tag {
     background-color: #4ef2f2; /* Light blue color */
-    width: 600px;
+    width: 400px;
     text-align: center;
     padding: 25px;
     margin: 15px 0;
@@ -350,7 +350,7 @@ body {
   @media (max-width: 768px) {
     .skill-tag {
       font-size: 0.95rem;
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 1rem  ;
     }
   }
   .experience-section {
