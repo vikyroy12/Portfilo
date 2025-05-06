@@ -130,35 +130,22 @@ body {
   
   /* Responsive */
   @media (max-width: 768px) {
- .header {
-    padding: 20px 30px;
-  }
+ 
+.navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    .resume-btn {
+      margin-top: 1rem;
+    }
 
-  #menu-icon {
-    display: block;
-  }
-
-  .navbar {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background: #333;
-    flex-direction: column;
-    display: none;
-  }
-
-  .navbar a {
-    display: block;
-    padding: 15px;
-    text-align: center;
-    margin: 0;
-  }
-
-  .navbar.active {
-    display: flex;
-  }
-}
     .hero {
       flex-direction: column;
       text-align: center;
