@@ -21,61 +21,46 @@ body {
   background: var(--background-color);
   color: var(--secondary-color);
 }
+section {
+    min-height: 100vh;
+    padding: 10rem 8% 3rem;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background:rgb(244, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  .logo {
+    font-size: 2rem;
+    color:black;
+    font-weight: 60px;
+    
+}
+.navbar a {
+    font-size: 1.5rem;
+    color: black;
+    margin-left: 1rem;
+    font-weight: 500;
+  }
+.navbar a:hover,
+.navbar a.active {
+ color:red;
 
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background: white;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  scroll-behavior: smooth;
+}
+.menu-icon {
+    font-size: 2rem;
+    color: rgb(90, 205, 244);
+    display: none;
 }
 
-.logo img {
-  width: 50px;
-}
 
-.menu-toggle {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-.nav-links {
-  display: flex;
-  gap: 1.2rem;
-  
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: var(--secondary-color);
-  font-weight: 600;
-  transition: color 0.3s;
-}
-
-.nav-links a:hover {
-  color: var(--primary-color);
-}
-
-.resume-button {
-  background-color: var(--primary-color);
-  color: white;
-  padding: 8px 16px;
-  border-radius: 8px;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.resume-button:hover {
-  background-color: darkblue;
-}
-  
   .hero {
     display: flex;
     flex-wrap: wrap;
