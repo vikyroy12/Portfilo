@@ -10,9 +10,7 @@
 <body>
 <header class="header">
     <a href="#" class="logo">Portfolio</a>
-    
     <i class="fa-solid fa-bars" id="menu-icon" ></i>
-
     <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about" >About</a>
@@ -20,9 +18,7 @@
         <a href="#skills" >Skills</a>
         <a href="#Projects" >Projects</a>
         <a href="#Certification" >Certification</a>
-        <a href="#contact" >Contact</a>
-
-        
+        <a href="#contact" >Contact</a> 
     </nav>
  </header>
 <!--About Section Design-->
