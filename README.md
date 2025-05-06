@@ -3,25 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Poloju Vikram | Salesforce Developer & Cyber Security Analyst</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 <body>
-  <header class="navbar">
-    <div class="logo">
-      <img src="Trailhead Logo.jpg" alt="Trailhead Logo" />
-    </div>
-    <div class="menu-toggle" id="menu-toggle">☰</div>
-    <nav class="nav-links" id="nav-links">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
-      <a href="#certificates">Certificates</a>
-      <a href="resume.pdf" download class="resume-button">Resume</a>
+<header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    
+    <i class="fa-solid fa-bars" id="menu-icon" ></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about" >About</a>
+        <a href="#services" >Services</a>
+        <a href="#skills" >Skills</a>
+        <a href="#Projects" >Projects</a>
+        <a href="#Certification" >Certification</a>
+        <a href="#contact" >Contact</a>
+
+        
     </nav>
-  </header>
+ </header>
 <!--About Section Design-->
   <section class="hero">
     <div class="text">
