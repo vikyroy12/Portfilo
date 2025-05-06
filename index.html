@@ -86,7 +86,7 @@
     </div>
   </section>
   <!--Skills Section Design-->
-  <section class="skills-section">
+  <section id="Skills">
     <div class="skill-tag blue">Profiles</div>
     <div class="skill-tag blue">Roles</div>
     <div class="skill-tag blue">Permission Sets</div>
