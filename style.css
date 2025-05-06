@@ -308,7 +308,7 @@ body {
       justify-content: center;
     }
   }
-#Skills {
+#skills-section {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
