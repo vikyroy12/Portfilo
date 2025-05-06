@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Poloju Vikram | Salesforce Developer & Cyber Security Analyst</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poloju Vikram | Salesforce Developer & Cyber Security Analyst</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 <body>
-  <header>
-
-    <nav class="navbar">
-      <div class="logo">
-        <img src="Trailhead Logo.jpg" alt="Trailhead Logo" />
-      </div>
-
-      <nav class="navbar1" >
-        <a href="#About" >About</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Experience">Experience</a>
-        <a href="#Education">Education</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Certificates">Certificates</a>
-       </nav>
-
-    <a href="resume.pdf" download class="resume-button">
-      <i class="fas fa-download"></i> Resume
-    </a>
+  <header class="navbar">
+    <div class="logo">
+      <img src="Trailhead Logo.jpg" alt="Trailhead Logo" />
+    </div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="resume.pdf" download class="resume-button">Resume</a>
+    </nav>
   </header>
 <!--About Section Design-->
-  <section id="about" class="hero">
-    <div class="hero-text">
-      <p>Hello There! 👋</p>
+  <section class="hero">
+    <div class="text">
+      <p class="intro">Hello There! 👋</p>
       <h1>I am <span>Poloju Vikram</span></h1>
-      <h2>Salesforce Developer & Cyber Security Analyst</h2>
-      <p>Salesforce Developer with 1+ years experience, 3x Salesforce certifications, skilled in Apex, LWC, Visualforce, and Salesforce integrations.</p>
-      <img src="agentblazer-badge.jpg" alt="Agentblazer Champion" class="badge" />
+      <h2><strong>Salesforce Developer & Cyber Security Analyst</strong></h2>
+      <p class="summary">
+        Salesforce Developer with 1+ years of experience and 3x Salesforce certifications.
+        Skilled in customizing and configuring Salesforce applications, developing LWC, Apex, Visualforce, and implementing Lightning Flow, integrations, and automation.
+      </p>
+      <div class="badge">
+        <img src="agentblazer-badge.jpg" alt="Agentblazer Champion Badge" />
+      </div>
     </div>
-    
-    <div class="hero-image">
-      <img src="image.jpg" alt="Poloju Vikram Profile" />
+    <div class="profile-img">
+      <img src="image.jpg" alt="vikram" />
     </div>
   </section>
 
-  <section id="Certificates">
+  <section class="certification-section">
     <h2>3X Salesforce Certified<br>and 3 Star Ranger</h2>
     <div class="badge-container">
       <img src="AI Associate.jpg" alt="AI Associate" class="image">
@@ -58,7 +57,7 @@
     </div>
   </section>
   <br><br><br>
-  <section id="Experience">
+  <section class="specializations">
     <div class="expertise-left">
       <h4>— My Expertise</h4>
       <h1>Salesforce<br><span>Specializations.</span></h1>
@@ -87,28 +86,30 @@
     </div>
   </section>
   <!--Skills Section Design-->
-  <section id="Skills">
+  <section class="skills-section">
     <div class="skill-tag blue">Profiles</div>
     <div class="skill-tag blue">Roles</div>
     <div class="skill-tag blue">Permission Sets</div>
     <div class="skill-tag blue">Sharing Settings</div>
     <div class="skill-tag blue">Approval Process</div>
     <div class="skill-tag blue">Flow Builder</div>
-    <div class="skill-tag blue">Data Loader</div> 
-    <div class="skill-tag blue">Change Sets</div><br>
+    <div class="skill-tag blue">Data Loader</div>
+  
+    <div class="skill-tag blue">Change Sets</div>
     <div class="skill-tag orange">Apex Classes</div>
     <div class="skill-tag orange">Apex Triggers</div>
     <div class="skill-tag orange">Batch Apex</div>
     <div class="skill-tag orange">Controllers</div>
     <div class="skill-tag orange">LWC</div>
-    <div class="skill-tag orange">Aura</div> <br>
+    <div class="skill-tag orange">Aura</div>
+  
     <div class="skill-tag purple">REST API</div>
     <div class="skill-tag purple">Integration</div>
     <div class="skill-tag purple">SOQL</div>
     <div class="skill-tag purple">Data Migration</div>
   </section>
   <!-- Experience Section Design-->
-  <section id="Experience">
+  <section class="experience-section">
     <div class="experience-left">
       <h4 class="subheading">— Professional Journey</h4>
       <h1 class="main-heading">Work <br />Experience.</h1>
@@ -130,7 +131,7 @@
     </div>
   </section>
   <!--  Education Section Design-->
-  <section id="Education" >
+  <section class="education-section" >
     <div class="education-left">
       <h4 class="subheading">— Academic Journey</h4>
       <h1 class="main-heading">Education <br />Background.</h1>
@@ -161,109 +162,130 @@
     </div>
   </section>
   <!--  Projects Section Design-->
- <section id="Projects">
-  <div class="projects-left">
-    <h4 class="subheading">— Professional Work</h4>
-    <h1 class="main-heading">Client <br />Projects.</h1>
-    <p class="description">
-      Delivering innovative Salesforce solutions across diverse business requirements.
-    </p>
-  </div>
-
-  <div class="projects-right">
-
-    <!-- Project 01 -->
-    <div class="project-card">
-      <div class="collapsible-header">
+  <section class="projects-section">
+    <div class="projects-left">
+      <h4 class="subheading">— Professional Work</h4>
+      <h1 class="main-heading">Client <br />Projects.</h1>
+      <p class="description">
+        Delivering innovative Salesforce solutions across diverse business requirements.
+      </p>
+    </div>
+  
+    <div class="projects-right">
+      <div class="project-card">
         <span class="project-number">01</span>
         <p class="project-title">Salesforce Integration with WhatsApp</p>
-        <span class="arrow">&#x25BC;</span> <!-- Down Arrow -->
+        
       </div>
+      
       <div class="project-details">
         <table>
-          <tr><th>Company</th><th>Duration</th><th>Team Size</th></tr>
-          <tr><td>Ankiome Soft</td><td>2 months</td><td>2</td></tr>
+            <tr>
+                <th>Company</th>
+                <th>Duration</th>
+                <th>Team Size</th>
+            </tr>
+            <tr>
+                <td>Ankiome Soft</td>
+                <td>2 months</td>
+                <td>2</td>
+            </tr>
         </table>
         <h3>Roles & Responsibilities</h3>
-        <ul>
-          <li>Configured and implemented Salesforce integration with WhatsApp for real-time customer communication.</li>
-          <li>Created Flows to automate WhatsApp notifications for leads, opportunities, and case updates.</li>
-          <li>Implemented secure integration using the WhatsApp Business API, ensuring compliance with data protection standards.</li>
-          <li>Enhanced customer service by enabling seamless integration between Salesforce and WhatsApp.</li>
+        <ul class="responsibilities">
+            <li>Configured and implemented Salesforce integration with WhatsApp for real-time customer communication.</li>
+            <li>Created Flows to automate WhatsApp notifications for leads, opportunities, and case updates.</li>
+            <li>Implemented secure integration using the WhatsApp Business API, ensuring compliance with data protection standards.</li>
+            <li>Enhanced customer service by enabling seamless integration between Salesforce and WhatsApp.</li>
         </ul>
-      </div>
     </div>
-
-    <!-- Project 02 -->
-    <div class="project-card">
-      <div class="collapsible-header">
+  
+      <div class="project-card">
         <span class="project-number">02</span>
         <p class="project-title">Salesforce Configuration and Development</p>
-        <span class="arrow">&#x25BC;</span>
       </div>
-      <div class="project-details">
-        <table>
-          <tr><th>Company</th><th>Duration</th><th>Team Size</th></tr>
-          <tr><td>Ankiome Soft</td><td>2 months</td><td>2</td></tr>
+
+        <div class="project-details">
+          <table>
+            <tr>
+                <th>Company</th>
+                <th>Duration</th>
+                <th>Team Size</th>
+            </tr>
+            <tr>
+                <td>Ankiome Soft</td>
+                <td>2 months</td>
+                <td>2</td>
+            </tr>
         </table>
-        <h3>Roles & Responsibilities</h3>
-        <ul>
+      </div>
+      <h3>Roles & Responsibilities</h3>
+      <ul class="responsibilities">
           <li>Configured and customized Salesforce.com (Sales Cloud), including workflows, approval processes, and page layouts.</li>
           <li>Developed Apex classes, Test Classes, Triggers, and LWC components to meet client requirements.</li>
           <li>Automated processes using Salesforce Flows and created validation rules to ensure data integrity.</li>
           <li>Integrated Salesforce with PostgreSQL, Chatlio, and Rippling to enhance system functionality and data synchronization.</li>
           <li>Collaborated with clients across different time zones to ensure clear communication and timely delivery.</li>
-        </ul>
-      </div>
-    </div>
+      </ul>
 
-    <!-- Project 03 -->
-    <div class="project-card">
-      <div class="collapsible-header">
+      <div class="project-card">
         <span class="project-number">03</span>
         <p class="project-title">Salesforce Configuration and Development</p>
-        <span class="arrow">&#x25BC;</span>
       </div>
       <div class="project-details">
         <table>
-          <tr><th>Company</th><th>Duration</th><th>Team Size</th></tr>
-          <tr><td>Ankiome Soft</td><td>4 months</td><td>5</td></tr>
+            <tr>
+                <th>Company</th>
+                <th>Duration</th>
+                <th>Team Size</th>
+            </tr>
+            <tr>
+                <td>Ankiome Soft</td>
+                <td>4 months</td>
+                <td>5</td>
+            </tr>
         </table>
         <h3>Roles & Responsibilities</h3>
         <ul>
-          <li>Contributed to the architecture and design of Salesforce solutions for the Sales Cloud.</li>
-          <li>Created custom objects, approval processes, and workflows to automate business processes.</li>
-          <li>Worked with PostgreSQL for data storage and developed custom solutions for the business.</li>
-          <li>Ensured the timely accomplishment of tasks and projects.</li>
+            <li>Contributed to the architecture and design of Salesforce solutions for the Sales Cloud.</li>
+            <li>Created custom objects, approval processes, and workflows to automate business processes.</li>
+            <li>Worked with PostgreSQL for data storage and developed custom solutions for the business.</li>
+            <li>Ensured the timely accomplishment of tasks and projects.</li>
         </ul>
-      </div>
     </div>
 
-    <!-- Project 04 -->
     <div class="project-card">
-      <div class="collapsible-header">
-        <span class="project-number">04</span>
-        <p class="project-title">Salesforce Configuration and Development</p>
-        <span class="arrow">&#x25BC;</span>
-      </div>
-      <div class="project-details">
-        <table>
-          <tr><th>Company</th><th>Duration</th><th>Team Size</th></tr>
-          <tr><td>Ankiome Soft</td><td>3 months</td><td>1</td></tr>
-        </table>
-        <h3>Roles & Responsibilities</h3>
-        <ul>
-          <li>Advised the team on Salesforce best practices and delivered optimal solutions to meet business needs.</li>
-          <li>Created custom objects, fields, and approval processes to automate business workflows.</li>
-          <li>Developed LWC forms for data entry and integration with Salesforce.</li>
-          <li>Configured Salesforce email services, custom email templates, and automated notifications.</li>
-        </ul>
-      </div>
+      <span class="project-number">04</span>
+      <p class="project-title">Salesforce Configuration and Development</p>
     </div>
-
+    <div class="project-details">
+      <table>
+          <tr>
+              <th>Company</th>
+              <th>Duration</th>
+              <th>Team Size</th>
+          </tr>
+          <tr>
+              <td>Ankiome Soft</td>
+              <td>3 months</td>
+              <td>1</td>
+          </tr>
+      </table>
   </div>
-</section>
 
+  <h2>Roles & Responsibilities</h2>
+  <ul>
+      <li>Advised the team on Salesforce best practices and delivered optimal solutions to meet business needs.</li>
+      <li>Created custom objects, fields, and approval processes to automate business workflows.</li>
+      <li>Developed LWC forms for data entry and integration with Salesforce.</li>
+      <li>Configured Salesforce email services, custom email templates, and automated notifications.</li>
+  </ul>
+</div>
+  </div>
+     
+     
+    </div>
+  </section>
  <!--  footer Section Design-->
 
   <footer class="footer">
@@ -284,24 +306,8 @@
     </div>
   </footer>
   
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const collapsibleHeaders = document.querySelectorAll('.collapsible-header');
-
-    collapsibleHeaders.forEach(header => {
-      header.addEventListener('click', () => {
-        const projectDetails = header.nextElementSibling;
-        const arrow = header.querySelector('.arrow');
-
-        const isVisible = projectDetails.style.display === 'block';
-        projectDetails.style.display = isVisible ? 'none' : 'block';
-        header.classList.toggle('active');
-      });
-    });
-  });
-</script>
   
 
-
+  <script src="script.js"></script>
 </body>
 </html>
