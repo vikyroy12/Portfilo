@@ -33,6 +33,7 @@ body {
   top: 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  scroll-behavior: smooth;
 }
 
 .logo img {
@@ -589,7 +590,22 @@ body {
     background-color: #504afb;
     color: white;
 }
-  
+  .collapsible-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.collapsible-header.active .arrow {
+  transform: rotate(180deg); /* rotate arrow down to up */
+}
+
+
   .project-card {
     background: #fff;
     border-radius: 10px;
