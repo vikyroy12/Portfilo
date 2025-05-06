@@ -99,9 +99,7 @@
   .resume-button i {
     font-size: 1.2rem;
   }
-  
-  
-  .hero {
+ .hero {
     display: flex;
     flex-wrap: wrap;
     padding: 2rem;
