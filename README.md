@@ -267,23 +267,24 @@
   </section>
  <!--  footer Section Design-->
 
-  <footer class="footer">
-    <div class="footer-left">
-      <p>Built with <span class="heart">❤️</span> using Salesforce LWC</p>
-    </div>
-    <div class="footer-right">
-      <a href="https://github.com/vikyroy12?tab=overview&from=2025-04-01&to=2025-04-20" target="_blank" aria-label="GitHub">
-        <img src="gitimg.jpg" alt="Github" class="git-icon" />
-      </a>
-      <a href="http://www.linkedin.com/in/poloju-vikram-8bab90230" target="_blank" aria-label="LinkedIn">
-        <img src="linkedinimg.jpg" alt="Linkedin" class="linkedin" />
-      </a>
-      <a href="https://www.salesforce.com/trailblazer/vikramrafter" target="_blank" aria-label="Trailhead">
-        <img src="Trailhead Logo.jpg" alt="Trailhead" class="trailhead-icon" />
-      </a>
-      <span class="email">raftervikram@gmail.com</span>
-    </div>
-  </footer>
+ <footer class="footer">
+  <div class="footer-left">
+    <p>Built with <span class="heart">❤️</span> using Salesforce LWC</p>
+  </div>
+  <div class="footer-right">
+    <a href="https://github.com/vikyroy12" target="_blank" aria-label="GitHub">
+      <img src="gitimg.jpg" alt="GitHub" class="icon" />
+    </a>
+    <a href="https://www.linkedin.com/in/poloju-vikram-8bab90230" target="_blank" aria-label="LinkedIn">
+      <img src="linkedinimg.jpg" alt="LinkedIn" class="icon" />
+    </a>
+    <a href="https://www.salesforce.com/trailblazer/vikramrafter" target="_blank" aria-label="Trailhead">
+      <img src="Trailhead Logo.jpg" alt="Trailhead" class="icon" />
+    </a>
+    <span class="email">raftervikram@gmail.com</span>
+  </div>
+</footer>
+
   
 <script>
  
