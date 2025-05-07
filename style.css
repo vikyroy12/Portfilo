@@ -46,17 +46,31 @@ body {
     cursor: pointer;
   }
   
+ /* Add to style.css */
+.nav-links {
+  display: none;
+  flex-direction: column;
+  background: #fff;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  z-index: 1000;
+}
+.nav-links.active {
+  display: flex;
+}
+@media (min-width: 768px) {
   .nav-links {
-    display: flex;
-    gap: 1.2rem;
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    background: none;
   }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-weight: 600;
-    transition: color 0.3s;
+  #menu-toggle {
+    display: none;
   }
+}
+
   
   .nav-links a:hover {
     color: var(--primary-color);
@@ -723,24 +737,6 @@ body {
   
   /* Responsive tweaks */
   @media (max-width: 600px) {
-    .nav-links {
-      display: none;
-      flex-direction: column;
-      background: white;
-      position: absolute;
-      top: 70px;
-      right: 0;
-      width: 100%;
-      padding: 1rem;
-    }
-  
-    .nav-links.active {
-      display: flex;
-    }
-  
-    .menu-toggle {
-      display: block;
-    }
   
     .hero {
       flex-direction: column;
