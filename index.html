@@ -295,20 +295,13 @@
       navLinks.classList.toggle('active');
     }
   
-  document.addEventListener("DOMContentLoaded", function () {
-    const collapsibleHeaders = document.querySelectorAll('.collapsible-header');
-
-    collapsibleHeaders.forEach(header => {
-      header.addEventListener('click', () => {
-        const projectDetails = header.nextElementSibling;
-        const arrow = header.querySelector('.arrow');
-
-        const isVisible = projectDetails.style.display === 'block';
-        projectDetails.style.display = isVisible ? 'none' : 'block';
-        header.classList.toggle('active');
-      });
-    });
+ collapsibleHeaders.forEach(header => {
+  header.addEventListener('click', () => {
+    const card = header.parentElement;
+    card.classList.toggle('active');
   });
+});
+
 </script>
   
 
