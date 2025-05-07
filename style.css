@@ -22,56 +22,59 @@ body {
     flex-direction: column;
     
   }
-  
+
+ /* Navbar */
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
     padding: 1rem 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex-wrap: wrap;
-    
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
   
   .logo img {
-    width: 65px;
+    width: 50px;
   }
   
-  .navbar1 a {
-    font-size: 1.5rem;
-    color: black;
-    margin-left: 1rem;
-    font-weight: 500;  
+  .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
   }
-.navbar1 a:hover,
-.navbar1 a.active {
- color:red;
-}
+  
+  .nav-links {
+    display: flex;
+    gap: 1.2rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: var(--primary-color);
+  }
   
   .resume-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background-color: #007bff;
+    background-color: var(--primary-color);
     color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
   }
   
   .resume-button:hover {
-    background-color: #0056b3;
+    background-color: darkblue;
   }
   
-  .resume-button i {
-    font-size: 1.2rem;
-  }
-
   .hero {
     display: flex;
     flex-wrap: wrap;
@@ -298,6 +301,11 @@ body {
     .item {
       justify-content: center;
     }
+  }
+ /* Scroll Animation */
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
   }
 #Skills {
   display: flex;
@@ -715,6 +723,29 @@ body {
   
   /* Responsive tweaks */
   @media (max-width: 600px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background: white;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
     .footer {
       flex-direction: column;
       align-items: flex-start;
@@ -731,5 +762,6 @@ body {
       margin-bottom: 0;
     }
   }
+
   
   
