@@ -133,41 +133,57 @@ body {
       font-size: 2rem;
     }
   }
-  .certification-section {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .certification-section h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #333;
-  }
-  
-  .badge-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    position: relative;
-    top: 130%;
-    left: -200px; /* start off-screen */
-    transform: translateY(50%);
-    width: 150px;
-    height: auto;
-    animation: moveRight 10s linear infinite;
+    /* certification */
+ #Certificates {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#Certificates h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.badge-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #888 #f1f1f1; /* Firefox */
+}
+
+/* For Webkit browsers */
+.badge-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.badge-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.badge-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.image {
+  flex: 0 0 auto;
+  width: 120px;
+  height: auto;
+  scroll-snap-align: center;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
     
-    
-  }
   
-  .badge-container img {
-    width: 150px;
-    height: auto;
-    transition: transform 0.3s ease;
-  
-  }
-
-
-
   @keyframes moveRight {
     0% {
       left: -200px;
