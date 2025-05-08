@@ -48,7 +48,6 @@
     <h2>3X Salesforce Certified<br>and 3 Star Ranger</h2>
     <div class="badge-container">
       <img src="AI Associate.jpg" alt="AI Associate" class="image">
-      <img src="Associate.jpg" alt="Associate" class="image">
       <img src="Tableau.jpg" alt="Tableau" class="image">
       <img src="Triple Star.jpg" alt="Triple Star" class="image">
       <img src="Agentforce.jpg" alt="Agentforce" class="image">
