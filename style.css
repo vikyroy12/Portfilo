@@ -425,7 +425,7 @@ body {
     }
   }
 
-  .education-section {
+ .education-section {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
@@ -517,6 +517,7 @@ body {
       font-size: 0.95rem;
     }
   }
+
   .projects-section {
     display: flex;
     flex-wrap: wrap;
