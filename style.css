@@ -339,7 +339,7 @@ body {
       padding: 0.5rem 1rem  ;
     }
   }
-   .experience-section {
+   #experience-section {
     display: flex;
     flex-wrap: wrap;
     padding: 3rem 2rem;
@@ -518,7 +518,7 @@ body {
     }
   }
 
-  #projects-section {
+  .projects-section {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
