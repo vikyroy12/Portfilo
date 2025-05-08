@@ -211,7 +211,7 @@ body {
   }
   
   /* Expertise Section */
-  .specializations {
+  #specializations {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -280,7 +280,7 @@ body {
   
   /* Responsive */
   @media (max-width: 768px) {
-    .specializations {
+    #specializations {
       flex-direction: column;
       text-align: center;
     }
@@ -425,7 +425,7 @@ body {
     }
   }
 
- .education-section {
+ #education-section {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
@@ -518,7 +518,7 @@ body {
     }
   }
 
-  .projects-section {
+  #projects-section {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
