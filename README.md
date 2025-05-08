@@ -110,7 +110,7 @@
     <div class="skill-tag purple">Data Migration</div>
   </section>
   <!-- Experience Section Design-->
-  <section id="Experience">
+<section class="experience-section">
     <div class="experience-left">
       <h4 class="subheading">— Professional Journey</h4>
       <h1 class="main-heading">Work <br />Experience.</h1>
