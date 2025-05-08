@@ -132,7 +132,8 @@
     </div>
   </section>
   <!--  Education Section Design-->
-  <section id="Education" >
+
+   <section class="education-section" >
     <div class="education-left">
       <h4 class="subheading">— Academic Journey</h4>
       <h1 class="main-heading">Education <br />Background.</h1>
