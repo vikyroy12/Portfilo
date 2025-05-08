@@ -60,7 +60,7 @@
   </section>
   <br><br><br>
     
-   <section class="specializations">
+ <section class="specializations">
     <div class="expertise-left">
       <h4>— My Expertise</h4>
       <h1>Salesforce<br><span>Specializations.</span></h1>
@@ -88,6 +88,7 @@
       </div>
     </div>
   </section>
+
   <!--Skills Section Design-->
   <section id="Skills">
     <div class="skill-tag blue">Profiles</div>
@@ -110,7 +111,8 @@
     <div class="skill-tag purple">Data Migration</div>
   </section>
   <!-- Experience Section Design-->
-<section class="experience-section">
+
+ <section class="experience-section">
     <div class="experience-left">
       <h4 class="subheading">— Professional Journey</h4>
       <h1 class="main-heading">Work <br />Experience.</h1>
@@ -131,9 +133,9 @@
       </ul>
     </div>
   </section>
-  <!--  Education Section Design-->
 
-   <section class="education-section" >
+  <!--  Education Section Design-->
+<section class="education-section" >
     <div class="education-left">
       <h4 class="subheading">— Academic Journey</h4>
       <h1 class="main-heading">Education <br />Background.</h1>
@@ -141,7 +143,7 @@
         Building strong foundations through academic excellence and continuous learning.
       </p>
     </div>
-  
+ 
     <div class="education-right">
       <div class="edu-entry">
         <p class="edu-date">2023 – 2025</p>
@@ -163,6 +165,7 @@
       </div>
     </div>
   </section>
+
   <!--  Projects Section Design-->
  <section id="Projects">
   <div class="projects-left">
