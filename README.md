@@ -59,7 +59,8 @@
     </div>
   </section>
   <br><br><br>
-  <section id="Experience">
+    /* Expertise Section Design */
+   <section class="specializations">
     <div class="expertise-left">
       <h4>— My Expertise</h4>
       <h1>Salesforce<br><span>Specializations.</span></h1>
