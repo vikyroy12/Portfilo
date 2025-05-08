@@ -59,7 +59,7 @@
     </div>
   </section>
   <br><br><br>
-    /* Expertise Section Design */
+    
    <section class="specializations">
     <div class="expertise-left">
       <h4>— My Expertise</h4>
