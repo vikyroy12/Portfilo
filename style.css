@@ -295,7 +295,7 @@ body {
   
   .item {
     display: flex;
-    align-items: center;
+    align-items: right;
     gap: 1rem;
     border-bottom: 1px solid #ddd;
     padding-bottom: 0.5rem;
@@ -322,7 +322,7 @@ body {
     }
   
     .expertise-right {
-      align-items: center;
+      align-items: right;
     }
   
     .item {
