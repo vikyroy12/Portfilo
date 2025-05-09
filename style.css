@@ -278,13 +278,7 @@ body {
     color: #333;
     margin: 0.5rem 0;
   }
-  
-  .expertise-left span {
-    font-weight: bold;
-    display: block;
-    padding: 0px 10px 0px 25px;
-  }
-  
+
   .expertise-left p {
     margin-top: 1rem;
     font-size: 1rem;
