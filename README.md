@@ -63,11 +63,9 @@
     
 <section class="specializations">
   <div class="expertise-left">
-    <h4>— <span>My Expertise</span></h4>
-    <h1>Salesforce<br><span>Specializations.</span></h1>
-    <p>
-      Combining technical expertise with a passion for creating innovative Salesforce solutions.
-    </p>
+    <h4>—<span>My Expertise</span></h4>
+    <h1>Salesforce<span>Specializations.</span></h1>
+    <p> Combining technical expertise with a passion for<br> creating innovative Salesforce solutions.</p>
   </div>
 
   <div class="expertise-right">
