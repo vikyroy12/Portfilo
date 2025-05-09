@@ -261,21 +261,22 @@ body {
     justify-content: space-between;
   }
   
-  .expertise-left {
-    flex: 1 1 300px;
+   .experience-left {
+    flex: 1 1 400px;
   }
   
-  .expertise-left h4 {
-    color: purple;
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    padding: 0px 10px 0px 25px;
+  .subheading {
+    color: #7a4fe0;
+    font-weight: bold;
+    font-size: 1.1rem;
   }
   
-  .expertise-left h1 {
-    font-size: 2.5rem;
+  .main-heading {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
     color: #333;
-    padding: 0px 10px 0px 25px;
+    margin: 0.5rem 0;
   }
   
   .expertise-left span {
