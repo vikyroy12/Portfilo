@@ -69,7 +69,7 @@ body {
 }
 
 /* Mobile styles */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .navbar__menu {
     position: absolute;
     top: 70px;
@@ -138,8 +138,8 @@ body {
 
 /* Right Side Image */
 .heroimage-right {
-  flex: 1 1 300px;
-  text-align: center;
+  width:200px;
+  text-align:right;
   padding: 1rem;
 }
 
@@ -151,7 +151,7 @@ body {
 }
 
 /* Responsive Layout */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .hero {
     flex-direction: column;
     text-align: center;
