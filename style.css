@@ -24,73 +24,69 @@ body {
   }
 
 /*================ NAVBAR ==================*/
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-  
-  .logo img {
-    width: 50px;
-  }
-  
-  .menu-toggle {
-    display: none;
-    font-size: 2rem;
-    cursor: pointer;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 1.2rem;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-weight: 600;
-    transition: color 0.3s;
-  }
-  
-  .nav-links a:hover {
-    color: var(--primary-color);
-  }
-  
-  .resume-button {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 8px 16px;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-  
-  .resume-button:hover {
-    background-color: darkblue;
-  }
-  
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  .navbar1 {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d1b2a;
+  padding: 1rem 2rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar__logo img {
+  height: 40px;
+}
+
+.navbar__menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar__link,
+.navbar__resume {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar__link:hover,
+.navbar__resume:hover {
+  color: #00b4d8;
+}
+
+.navbar__toggle {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .navbar__menu {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #0d1b2a;
     flex-direction: column;
     width: 100%;
-    margin-top: 10px;
+    display: none;
+    padding: 1rem;
   }
 
-  .resume-button {
-    margin-top: 10px;
-    align-self: flex-start;
+  .navbar__menu.active {
+    display: flex;
+  }
+
+  .navbar__toggle {
+    display: block;
   }
 }
 
