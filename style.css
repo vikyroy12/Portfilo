@@ -291,6 +291,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    padding:0px 0px 0px 30px;
   }
   
   .item {
