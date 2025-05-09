@@ -24,67 +24,76 @@ body {
   }
 
 /*================ NAVBAR ==================*/
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background: white;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
- .logo img {
-    width: 25px;
-  }
-.menu-toggle {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
+  flex-wrap: wrap;
 }
 
-.nav-links {
-  display: none;
-  flex-direction: column;
-  background: #fff;
-  position: absolute;
-  top: 100%;
-  right: 10px;
-  z-index: 1000;
+/* Logo */
+.logo img {
+  height: 50px;
+  width: auto;
 }
 
-.nav-links.active {
+/* Navigation Links */
+.navbar1 {
   display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.nav-links a:hover {
-  color: var(--primary-color);
+.navbar1 a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
+.navbar1 a:hover {
+  color: #0070f3;
+}
+
+/* Resume Button */
 .resume-button {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: #0070f3;
+  color: #fff;
   padding: 8px 16px;
-  border-radius: 8px;
+  border-radius: 6px;
+  text-decoration: none;
   font-weight: bold;
-  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease;
 }
 
 .resume-button:hover {
-  background-color: darkblue;
+  background-color: #005bb5;
 }
 
-/* Responsive Nav */
-@media (min-width: 768px) {
-  .nav-links {
-    display: flex !important;
-    flex-direction: row;
-    position: static;
-    background: none;
+.resume-button i {
+  font-size: 14px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  .menu-toggle {
-    display: none;
+
+  .navbar1 {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .resume-button {
+    margin-top: 10px;
+    align-self: flex-start;
   }
 }
 
