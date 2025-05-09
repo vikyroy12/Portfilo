@@ -7,19 +7,23 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo">
+<header class="navbar">
+    <div class="navbar__logo">
       <img src="Trailhead Logo.jpg" alt="Trailhead Logo" />
     </div>
-    <div class="menu-toggle" id="menu-toggle">☰</div>
-    <nav class="nav-links" id="nav-links">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
-      <a href="#certificates">Certificates</a>
-      <a href="resume.pdf" download class="resume-button">Resume</a>
+  
+    <button class="navbar__toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+  
+    <nav class="navbar__menu" id="nav-links">
+      <a href="#about" class="navbar__link">About</a>
+      <a href="#skills" class="navbar__link">Skills</a>
+      <a href="#experience" class="navbar__link">Experience</a>
+      <a href="#education" class="navbar__link">Education</a>
+      <a href="#projects" class="navbar__link">Projects</a>
+      <a href="#certificates" class="navbar__link">Certificates</a>
+      <a href="resume.pdf" download class="navbar__resume">Resume</a>
     </nav>
   </header>
 <!--About Section Design-->
