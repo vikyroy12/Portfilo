@@ -269,26 +269,26 @@ body {
     color: purple;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
-    padding:10px 10px 0px 20px ;
+    padding: 0px 10px 0px 25px;
   }
   
   .expertise-left h1 {
     font-size: 2.5rem;
     color: #333;
-    padding: 0px 10px 5px 20px;
+    padding: 0px 10px 0px 25px;
   }
   
   .expertise-left span {
     font-weight: bold;
     display: block;
-    padding:10px 5px 10px 10px;
+    padding: 0px 10px 0px 25px;
   }
   
   .expertise-left p {
     margin-top: 1rem;
     font-size: 1rem;
     color: #555;
-    padding:10px 5px 10px 10px;
+    padding: 0px 10px 0px 25px;
   }
   
   .expertise-right {
